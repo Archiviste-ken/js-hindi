@@ -37,6 +37,36 @@ const myFunction = function() {
 
 console.log(typeof bigNumber);
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap(Non-Prmitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anothername = myYoutubename //  myYoutubename  ki ek copy assign hui hai anothername ko
+
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",           //heap mai direcct reference milta hai unlike stack jo original ka copy assign krta hai
+    upi: "user@ybl"
+}
+
+let userTwo = userOne  
+
+userTwo.email = "hitesh@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);            // same reference example. the email gets changed of other too by another one change
+
+
+
+
+
+
 
 
     
