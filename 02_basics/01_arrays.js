@@ -1,0 +1,45 @@
+//  array //               // read documentation from mdn too , it's important too.
+
+const myArr = [0,1,2,3,4,5]
+const myHeros = ["shaktiman" , "naagraj"]
+
+const myArr2= new Array(1,2,3,4,5)   //  2nd method/way for declaring a array.
+
+console.log(myArr[0]);
+
+// Array methods
+
+// myArr.push(6)   /// forcefully adds an element in the desired array.
+// myArr.pop(6) // removes an element from  the desired array. 
+
+//myArr.unshift(9)  // it shifts the position of every element if we use unshift.
+//myArr.shift() // removes the shifted element.
+
+//console.log(myArr.includes(3));  // checks the availability of the mentioned element by answering in true or false
+
+//console.log(myArr.indexOf(9)); // gives o/p -1 as the mentioned index of the element don't exist
+
+// const newArr = myArr.join()
+
+// console.log(myArr);
+// console.log(newArr);
+// console.log(typeof newArr);
+
+/// slice , splice
+
+console.log("A " , myArr);
+
+const myn1  = myArr.slice(1,3) // slice returns a copy of section of an array
+
+console.log(myn1);
+console.log("B " ,myArr);
+
+
+const myn2  = myArr.splice(1,3)  //  splice removes the elements from the original array.
+console.log("C " ,myArr);
+console.log(myn2);
+
+
+
+
+

@@ -21,7 +21,7 @@ let myTimeStamp = Date.now()
 //console.log(Math.floor(Date.now()/1000));
 let newDate = new Date()
 console.log(newDate);
-console.log(newDate.getMonth() + 1);  bcs month isme 0 se start hota hai
+console.log(newDate.getMonth() + 1);  //bcs month isme 0 se start hota hai
 console.log(newDate.getDay()); 
 
 `${newDate.getDay()} and the time is `
