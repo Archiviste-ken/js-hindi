@@ -7,20 +7,20 @@
 //         break;
 // }
 
-const month = 3 
+const month = "jan"
 
 switch (month) {
-    case 1:
+    case "jan":
         console.log("January");
         break;
-    case 2:
+    case "feb":
         console.log("february");
         break;
-    case 3:
-        console.log("March");
+    case "march":
+        console.log("march");
         break;
-    case 4:
-        console.log("March");
+    case "april":
+        console.log("april");
         break;
 
     default:
