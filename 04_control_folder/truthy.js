@@ -29,8 +29,17 @@ if(Object.keys(emptyObj).length ===0){
 // Nullish Coalescing Operator (??): null undefined
 
 let val1;
-val1 = 5 ?? 10
-value1 = nurs
+// val1 = 5 ?? 10
+// val1 =  null ?? 10
+// val1 = undefined ?? 15
+val1 = null ?? 10 ?? 20    // NC operator(??) here the very assigns first value.
 
 
 console.log(val1);
+
+// Ternary Operator
+
+//  condition ? true : false
+
+const iceTeaPrice =  100
+iceTeaPrice <=80 ? console.log("less than 80") : console.log("more than 80")
