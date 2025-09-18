@@ -25,6 +25,7 @@ const map = new Map()
 map.set(`IN`,"India")
 map.set('USA', "United States of America")
 map.set('FR', "France")
+// map.set(`IN`,"India")
 
 // console.log(map);
 
@@ -37,7 +38,7 @@ const myObject = {
     'game2' : 'Spiderman'
 }
 
-// for ( const [key,value] of myObject) {
+// for ( const [key,value] of myObject) { // for of loop don't work on objects
 //     console.log(key,':-', value);
     
 // } 
