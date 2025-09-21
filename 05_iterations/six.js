@@ -10,7 +10,26 @@ const coding = ["js","ruby","java","python","cpp"]
 
 const myNums = [1,2,3,4,5,6,7,8,9,10]
 
-const newNums=myNums.filter((num) => () =>{
-    return num > 4
-})
-console.log(newNums);
+// const newNums=myNums.filter((num) => () =>{
+//     return num > 4       // if we open scope then it's necessary to apply return to get the values back
+//})
+//console.log(newNums);
+
+const newNums = []
+
+// myNums.forEach((num)=>{      // by for each loop
+//     if (num > 4) {
+//         newNums.push(num)
+        
+//     }
+// })
+
+// console.log(newNums);
+
+
+
+
+
+
+
+
