@@ -1,3 +1,5 @@
+// DOM --> document object model.
+// The Document Object Model (DOM) connects web pages to scripts or programming languages by representing the structure of a document—such as the HTML representing a web page—in memory. Usually it refers to JavaScript, even though modeling HTML, SVG, or XML documents as objects are not part of the core JavaScript language.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,4 +15,15 @@
     <div class = "day"> Thursday</div>
     </div>
 </body>
+<script>
+    const parent = document.querySelector('.parent')
+    console.log(parent);
+    console.log(parent.children);
+    console.log(parent.children[1].innerHTML);
+
+for (let  i = 0;  i < parent.children.length;  i++) {
+     console.log(parent.children[i].innerHTML);
+    
+}
+</script>
 </html>
