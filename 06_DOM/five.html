@@ -23,10 +23,24 @@
 
     function addOptiLanguage(langName){
     const li = document.createElement('li');
-    li.appendChild(document.createElement(langName))
+    li.appendChild(document.createTextNode(langName))
     document.querySelector('.language').appendChild(li)
     }
+    addOptiLanguage('golang')
+
+    //Edit
+    const secondLang = document.querySelector("li:nth-child(2)")
+    //secondLang.innerHTML = "Mojo"
+    const newLi = document.createElement('Li')
+    newLi.textContent = "Mojo"
+    secondLang.replaceWith(newLi)
+
+    //edit
+    const firstLang = document.querySelector("li:first-child")
+    firstLang.outerHTML = '<li>Typescript</li>'
+
+    //remove
+    const lastlang = document.querySelector('li:last-child')
+    lastlang.remove()
     </script>
-
-
 </html>
