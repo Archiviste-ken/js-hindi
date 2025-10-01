@@ -19,7 +19,13 @@
         appendChild(li)
 }
     addLanguage("Python")
-    addLanguage("Python")
+    addLanguage("Typescript")
+
+    function addOptiLanguage(langName){
+    const li = document.createElement('li');
+    li.appendChild(document.createElement(langName))
+    document.querySelector('.language').appendChild(li)
+    }
     </script>
 
 
